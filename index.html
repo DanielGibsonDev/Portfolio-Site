@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicon/site.webmanifest">
+  <script src="https://kit.fontawesome.com/88a08710c1.js" crossorigin="anonymous"></script>
+  
+  <title>Daniel Gibson - Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a class="site-logo" href="/">DG</a>
+      <ul class="nav-right">
+        <li class="nav-item">
+          <a href="/#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a href="/#skills">Skills</a>
+          </li>
+        <li class="nav-item">
+          <a href="/#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="padding hero">
+    <h1>Hello, my name is Daniel. I am a full stack JavaScript developer living in Auckland, New Zealand.</h1>
+  </section>
+  <section class="image padding">
+    <img src="./images/portfolio-img-1.jpg" alt="Daniel sitting on a couch" class="main-image"/>
+  </section>
+  <div class="wrapper padding">
+    <section class="about" id="about">
+      <h2>About:</h2>
+      <p>
+        I currently am working as a JavaScript Engineer at <a href="https://www.orchid.co.nz/" target="_blank" class="blue">Orchid Web Design</a>. Within a year I have studied and learnt the skills needed to become a productive modern Web Developer. This is a field I thoroughly enjoy and am passionate about. The experience I have gained has strengthened my JavaScript skills and exposed a hunger towards a path of continual learning and growth. Outside of work I like to get involved with leading youth camps.
+      </p>
+      <a href="https://drive.google.com/file/d/1C6FpBe4nZ3YIG3etyx70LNzqtAySKMEW/view?usp=sharing" target="_blank"><i class="far fa-file-pdf"></i> <span  class="blue">View C.V. / Resume</span></a>
+    </section>
+    <section class="projects" id="projects">
+      <h2>Projects:</h2>
+      <div class="project-detail first">
+        <div>
+          <h3><a href="https://courses-noticeboard.netlify.com">Courses Noticeboard App</a></h3>
+          <a href="https://courses-noticeboard.netlify.com" target="_blank">https://courses-noticeboard.netlify.com</a>
+          <ul>
+            <li>Full Stack JavaScript app with React and REST API</li>
+            <li>Users can view a list of courses and the details for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses</li>
+            <li>REST API built with express and SQLite</li>
+          </ul>
+          <a href="/projects.html#courses-noticeboard" class="blue">Read more...</a>
+        </div>
+        <div class="project-img-wrapper">
+          <img src="./images/projects/borders/courses-noticeboard01-border-light.png" alt="Courses Noticeboard App">
+        </div>
+      </div>
+      <div class="project-detail reverse-flex">
+        <div>
+          <h3><a href="https://countries-research.netlify.com">Countries Research App</a></h3>
+          <a href="https://countries-research.netlify.com" target="_blank">https://countries-research.netlify.com</a>
+          <ul>
+            <li>Built with Vue.js connecting with a third-party REST API</li>
+            <li>Users can search and filter countries from around the world to learn interesting facts through a detailed view</li>
+            <li>Intergrated with a dark mode theme switcher </li>
+          </ul>
+          <a href="/projects.html#countries-research" class="read-more blue">Read more...</a>
+        </div>
+        <div class="project-img-wrapper">
+          <img src="./images/projects/borders/countries03-border-light.png" alt="Countries Research App">
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <a href="/projects.html" class="zoom">View more projects <i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2>Technical Skills:</h2>
+      <div class="skills-wrapper">
+        <div class="padding-right">
+          <h3>Fundamentals</h3>
+          <ul>
+            <li>Proficiency in JavaScript, Node, React, Vue.js, Express, HTML5, CSS3, Sass, SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Consuming an API</h3>
+          <ul>
+            <li>Experience in using Fetch/Axios to make post/pull requests</li>
+          </ul>
+        </div>
+        <div class="padding-right">
+          <h3>Building a REST API & CRUD</h3>
+          <ul>
+            <li>Experience in building an API, connecting to a database to make queries, get data, insert data, using Postman and MongoDB</li>
+          </ul>
+        </div>
+        <div>
+          <h3>DevOps & Deployment</h3>
+          <ul>
+            <li>Capable of using Heroku and Netlify's server-less functions</li>
+          </ul>
+        </div>
+        <div class="padding-right">
+          <h3>Version Control Systems / DevTools</h3>
+          <ul>
+            <li>Confident in using Git, GitHub/Bitbucket/Github desktop</li>
+            <li>Ability to use Chrome/Firefox DevTools to manipulate the DOM, perform error testing and debugging</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Problem Solving & Searching</h3>
+          <ul>
+            <li>Effectively able to use Google and Stack Overflow</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact:</h2>
+      <ul class="links">
+        <li>
+          <a href="tel:02102402186"><i class="fas fa-phone-square-alt"></i> 021 024 02186</a>
+        </li>
+        <li>
+          <a href="mailto:danielgibson.js@gmail.com"><i class="fas fa-at"></i>danielgibson.js@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.google.co.nz/maps/place/Auckland/@-36.8617012,174.3037026,9z/data=!3m1!4b1!4m5!3m4!1s0x6d0d47fb5a9ce6fb:0x500ef6143a29917!8m2!3d-36.8484597!4d174.7633315" target="_blank"><i class="fas fa-map-marker-alt"></i>  Auckland, New Zealand</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/danielgibsonjs/" target="_blank"><i class="fab fa-linkedin"></i> nz.linkedin.com/in/danielgibsonjs</a>
+        </li> 
+        <li>
+          <a href="https://github.com/danielgibsonjs" target="_blank"><i class="fab fa-github-square"></i> github.com/danielgibsonjs</a>
+        </li>
+        <li>
+          <a href="https://t.me/danielgib" target="_blank"><i class="fab fa-telegram"></i> t.me/danielgib</a>
+        </li> 
+      </ul>
+    </section>
+    <footer><p>&copy; 2019 Daniel Gibson</p></footer>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
