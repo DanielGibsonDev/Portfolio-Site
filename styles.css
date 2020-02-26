@@ -283,6 +283,53 @@ header {
 
 /* Skills Section */
 
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-circle {
+  font-size: 22px;
+}
+
+.grey {
+  color: #c5c5c5;
+}
+
+.d-flex p {
+  max-width: 330px;
+}
+
+.d-relative {
+  position: relative;
+  padding-top: 18px;
+}
+
+.d-relative span {
+  position: absolute;
+  right: 0;
+  top: 43px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px !important;
+  text-align: right;
+}
+
+.matrix-wrapper {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 550px) {
+  .fa-circle {
+    font-size: 16px;
+  }
+
+  .d-flex p {
+    max-width: 200px;
+  }
+}
+
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;
