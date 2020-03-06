@@ -157,11 +157,19 @@ header {
   margin: 0 auto;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .hero {
   padding-top: 6rem;
   padding-bottom: 6rem;
   max-width: 890px;
   margin: 0 auto;
+}
+
+.projects-page .hero {
+  padding-bottom: 5rem;
 }
 
 .main-image {
@@ -197,6 +205,10 @@ header {
 .project-detail {
   font-weight: initial;
   display: flex;
+}
+
+.project-detail ul a {
+  color: var(--blue);
 }
 
 .projects .first {
@@ -281,6 +293,47 @@ header {
   padding-left: 5px;
 }
 
+/* Projects */
+.project-titles {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0 2rem 6rem;
+}
+
+.project-titles h2 {
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.project-titles h2:hover {
+  border-bottom: 2px solid var(--blue);
+}
+
+.active {
+  border-bottom: 2px solid var(--blue);
+}
+
+.hidden {
+  display: none;
+}
+
+.calendar {
+  padding-top: 1rem;
+}
+
+.fa-calendar-check {
+  font-size: 18px;
+  padding-right: 0.6rem;
+}
+
+.website .tech-used {
+  max-width: 500px;
+}
+
+
 /* Skills Section */
 
 .d-flex {
@@ -317,7 +370,7 @@ header {
 
 .matrix-wrapper {
   margin-top: -20px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 @media (max-width: 550px) {
@@ -351,6 +404,8 @@ header {
 
 .contact {
   font-weight: 400;
+  border-top: 1px solid var(--light-grey);
+  padding-top: 3.5rem;
 }
 
 .links {
@@ -361,9 +416,9 @@ header {
   max-height: 150px;
 }
 
-.links span:hover {
+/* .links span:hover {
   border-bottom: 2px solid var(--blue);
-}
+} */
 
 .links li {
   padding-bottom: 15px;
@@ -372,6 +427,10 @@ header {
 .links .fas, .links .fab {
   font-size: 22px;
   padding-right: 5px;
+}
+
+.links a {
+  color: var(--blue);
 }
 
 /* footer */
@@ -388,16 +447,16 @@ footer {
 }
 
 .projects-page a {
-  font-weight: 600;
+  color: var(--blue);
 }
 
 .projects-page h4 a {
-  color: var(--blue);
+  color: var(--grey);
 }
 
 .projects-heading {
   border-bottom: 1px solid var(--light-grey);
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .project-page-img-wrapper {

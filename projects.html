@@ -22,11 +22,11 @@
           <a href="/#about">About</a>
         </li>
         <li class="nav-item">
-          <a href="/projects.html">Projects</a>
+          <a href="/projects.html">Recent Projects</a>
         </li>
-        <li class="nav-item">
-            <a href="/#skills">Skills</a>
-          </li>
+        <!-- <li class="nav-item">
+          <a href="/#skills">Skills</a>
+        </li> -->
         <li class="nav-item">
           <a href="/#contact">Contact</a>
         </li>
@@ -34,36 +34,64 @@
     </nav>
   </header>
   <div class="projects-page">
-    <section class="padding hero projects-heading">
+    <section class="padding hero center-text projects-heading">
       <h1>Recent Projects:</h1>
     </section>
 
-    <section class="project-1 padding">
+    <div class="project-titles">
+      <h2 class="active" id="web-app-link">Web Apps</h2>
+      <h2 id="website-link">Websites</h2>
+    </div>
+
+    <section class="project-2 padding web-app">
       <div class="wrapper">
-        <h4 id="courses-noticeboard"><a href="https://courses-noticeboard.netlify.com" target="_blank">Courses Noticeboard App</a></h4>
-        <a href="https://github.com/DanielGibsonJS/Courses-Noticeboard-App" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://courses-noticeboard.netlify.com" target="_blank"><i class="fas fa-link"></i>https://courses-noticeboard.netlify.com</a>
+        <h4 id="rock-paper-scissors"><a href="https://app-rock-paper-scissors.netlify.com/" target="_blank">Rock, Paper, Scissors App</a></h4>
+        <a href="https://github.com/DanielGibsonJS/Rock-Paper-Scissors-App" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://app-rock-paper-scissors.netlify.com/" target="_blank"><i class="fas fa-link"></i>https://app-rock-paper-scissors.netlify.com/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
-            <li>Full Stack JavaScript app with React and REST API</li>
-            <li>REST API built with express and SQLite</li>
+            <li>Built with vanilla JavaScript, using smooth CSS animations, and LocalStorage to track score</li>
           </ul>
           <ul class="description">
-            <li>Users can view a list of courses and the details for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses</li>
+            <li>Classic Rock, Paper, Scissors game using fun animations and transitions with score tracking. Try to get a high score!</li>
+            <li>Great project to brush up on JavaScript ES2019 features</li>
           </ul>
         </div>  
       </div>
       <div class="project-page-img-wrapper wrapper-wide">
-        <img src="./images/projects/borders/courses-noticeboard01-border.png" alt="Courses Noticeboard App">
-        <img src="./images/projects/borders/courses-noticeboard02-border.png" alt="Courses Noticeboard App">
+        <img src="./images/projects/rock-paper-scissors-02.png" alt="Rock, Paper, Scissors">
+        <img src="./images/projects/rock-paper-scissors-01.png" alt="Rock, Paper, Scissors">
       </div>
     </section>
 
-    <section class="project-2 padding">
+    <section class="project-3 padding web-app">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://shortly-app.netlify.com/" target="_blank">Link Shortening App</a></h4>
+        <a href="https://github.com/DanielGibsonJS/URL-Shortener-App" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://shortly-app.netlify.com/" target="_blank"><i class="fas fa-link"></i>https://shortly-app.netlify.com</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Built with vanilla JavaScript, connects with third-party API and saves data using LocalStorage</li>
+          </ul>
+          <ul class="description">
+            <li>One page clean website with a useful tool of shortening any valid URL and a click to copy to clipboard feature</li>
+          </ul>
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/shortly-02.png" alt="Shortly App">
+        <img src="./images/projects/shortly-01.png" alt="Shortly App">
+      </div>
+    </section>
+
+    <section class="project-2 padding web-app">
       <div class="wrapper">
         <h4 id="countries-research"><a href="https://countries-research.netlify.com" target="_blank">Countries Research App</a></h4>
         <a href="https://github.com/DanielGibsonJS/Countries-Research-App" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://countries-research.netlify.com" target="_blank"><i class="fas fa-link"></i>https://countries-research.netlify.com</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
             <li>Built with Vue.js connecting with a third-party REST API</li>
@@ -81,52 +109,34 @@
       </div>
     </section>
 
-    <section class="project-2 padding">
+    <section class="project-1 padding web-app">
       <div class="wrapper">
-        <h4 id="rock-paper-scissors"><a href="https://app-rock-paper-scissors.netlify.com/" target="_blank">Rock, Paper, Scissors App</a></h4>
-        <a href="https://github.com/DanielGibsonJS/Rock-Paper-Scissors-App" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://app-rock-paper-scissors.netlify.com/" target="_blank"><i class="fas fa-link"></i>https://app-rock-paper-scissors.netlify.com/</a>
+        <h4 id="courses-noticeboard"><a href="https://courses-noticeboard.netlify.com" target="_blank">Courses Noticeboard App</a></h4>
+        <a href="https://github.com/DanielGibsonJS/Courses-Noticeboard-App" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://courses-noticeboard.netlify.com" target="_blank"><i class="fas fa-link"></i>https://courses-noticeboard.netlify.com</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
-            <li>Built with vanilla JavaScript, using smooth CSS animations, and LocalStorage to track score</li>
+            <li>Full Stack JavaScript app built with React using RESTful API</li>
+            <li>REST API built with express and SQLite</li>
           </ul>
           <ul class="description">
-            <li>Classic Rock, Paper, Scissors game using fun animations and transitions with score tracking. Try to get a high score!</li>
-            <li>Great project to brush up on JavaScript ES2019 features</li>
+            <li>Users can view a list of courses and the details for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses</li>
           </ul>
         </div>  
       </div>
       <div class="project-page-img-wrapper wrapper-wide">
-        <img src="./images/projects/rock-paper-scissors-02.png" alt="Rock, Paper, Scissors">
-        <img src="./images/projects/rock-paper-scissors-01.png" alt="Rock, Paper, Scissors">
+        <img src="./images/projects/borders/courses-noticeboard01-border.png" alt="Courses Noticeboard App">
+        <img src="./images/projects/borders/courses-noticeboard02-border.png" alt="Courses Noticeboard App">
       </div>
     </section>
 
-    <section class="project-3 padding">
-      <div class="wrapper">
-        <h4 id="countries-research"><a href="https://shortly-app.netlify.com/" target="_blank">Link Shortening App</a></h4>
-        <a href="https://github.com/DanielGibsonJS/URL-Shortener-App" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://shortly-app.netlify.com/" target="_blank"><i class="fas fa-link"></i>https://shortly-app.netlify.com</a>
-        <div class="project-list-wrapper">
-          <ul class="tech-used">
-            <li>Built with vanilla JavaScript, connects with third-party API and saves data using LocalStorage</li>
-          </ul>
-          <ul class="description">
-            <li>One page clean website with a useful tool of shortening any valid URL and a click to copy to clipboard feature</li>
-          </ul>
-        </div>  
-      </div>
-      <div class="project-page-img-wrapper wrapper-wide">
-        <img src="./images/projects/shortly-02.png" alt="Shortly App">
-        <img src="./images/projects/shortly-01.png" alt="Shortly App">
-      </div>
-    </section>
-
-    <section class="project-4 padding">
+    <section class="project-4 padding web-app">
       <div class="wrapper">
         <h4 id="countries-research"><a href="https://course-directory-app.netlify.com" target="_blank">Course Directory App</a></h4>
         <a href="https://github.com/DanielGibsonJS/course-directory" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://course-directory-app.netlify.com" target="_blank"><i class="fas fa-link"></i>https://course-directory-app.netlify.com</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
             <li>Built with React.js</li>
@@ -142,11 +152,12 @@
       </div>
     </section>
 
-    <section class="project-5 padding">
+    <section class="project-5 padding web-app">
       <div class="wrapper">
         <h4 id="countries-research"><a href="https://boardgame-scoreboard.netlify.com" target="_blank">Boardgame Scoreboard App</a></h4>
         <a href="https://github.com/DanielGibsonJS/Boardgame-Scoreboard" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://boardgame-scoreboard.netlify.com" target="_blank"><i class="fas fa-link"></i>https://boardgame-scoreboard.netlify.com</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
             <li>Built with React.js</li>
@@ -161,11 +172,12 @@
       </div>
     </section>
 
-    <section class="project-6 padding">
+    <section class="project-6 padding web-app">
       <div class="wrapper">
         <h4 id="countries-research"><a href="https://danielgibsonjs.github.io/phrase-hunter-game/" target="_blank">Phrase Hunter Game App</a></h4>
         <a href="https://github.com/DanielGibsonJS/phrase-hunter-game" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://danielgibsonjs.github.io/phrase-hunter-game/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/phrase-hunter-game/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
             <li>OOP Game App</li>
@@ -181,17 +193,123 @@
       </div>
     </section>
 
-    <section class="project-7 padding">
+    <section class="project-7 padding website hidden">
       <div class="wrapper">
-        <h4 id="countries-research"><a href="https://docstar.co.nz" target="_blank">Built with Gatsby.js</a></h4>
-        <a href="https://docstar.co.nz" target="_blank"><i class="fas fa-link"></i>https://docstar.co.nz</a>
+        <h4 id="manage-website"><a href="https://danielgibsonjs.github.io/cms-landing-page/" target="_blank">Manage landing page - Bootstrap CSS</a></h4>
+        <a href="https://github.com/DanielGibsonJS/cms-landing-page" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonjs.github.io/cms-landing-page/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/cms-landing-page/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
         <div class="project-list-wrapper">
           <ul class="tech-used">
-            <li>Built with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby.js</a> which is a blazing fast modern site generator for React</li>
+            <li>Responsive landing page with testimonial slider. Used Bootstrap CSS framework</li>
+            <!-- <li></li> -->
+          </ul>
+          <ul class="description">
+            <li>Matt the founder of <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> featured this build in his recent newsletter which is sent out to 1,200+ developers, saying "Daniel Gibson has taken on the new Manage landing page challenge and done a brilliant job here. The page is fully responsive and looks great!"</li>
+          </ul>
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/manage-website.png" alt="Manage website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://danielgibsonorchid.github.io/Pricing-Component/" target="_blank">Pricing component with toggle</a></h4>
+        <a href="https://github.com/DanielGibsonJS/Pricing-Component" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonorchid.github.io/Pricing-Component/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonorchid.github.io/Pricing-Component/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Clean HTML, CSS and JavaScript code. Includes a monthly/yearly toggle</li>
+            <li>This was a <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> challenge - They provided the design in .jpg format and I built it!</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/pricing-component.png" alt="Pricing Component website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://snowball-x.com/" target="_blank">Snowball Securities - Built with Gatsby.js</a></h4>
+        <a href="https://snowball-x.com/" target="_blank"><i class="fas fa-link"></i>https://snowball-x.com/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Co-built this website for a client using the React.js based site generator <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a></li>
+            <li>Used version-control on GitHub to manage branches and coordinate with other the developer</li>
+            <li>Familiarising myself with the <a href="https://jamstack.org/" target="_blank">JAMStack</a> approach to building websites</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/snowball-site.png" alt="Snowball website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://danielgibsonjs.github.io/css-landing-page-5/" target="_blank">Clipboard landing page</a></h4>
+        <a href="https://github.com/DanielGibsonJS/css-landing-page-5" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonjs.github.io/css-landing-page-5/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/css-landing-page-5/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Built using CSS Flexbox, fully mobile responsive, clean code</li>
+            <li>This was a <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> challenge - They provided the design in .jpg format and I built it!</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/landing-page-5.png" alt="Pricing Component website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://danielgibsonjs.github.io/css-landing-page-4/" target="_blank">Ping coming soon landing page</a></h4>
+        <a href="https://github.com/DanielGibsonJS/css-landing-page-4" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonjs.github.io/css-landing-page-4/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/css-landing-page-4/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Practicing CSS Flexbox, media queries, and JavaScript</li>
+            <li>This was a <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> challenge - They provided the design in .jpg format and I built it!</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/landing-page-4.png" alt="Pricing Component website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://docstar.co.nz" target="_blank">Built with Gatsby.js - Docstar</a></h4>
+        <a href="https://docstar.co.nz" target="_blank"><i class="fas fa-link"></i>https://docstar.co.nz</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Built with <a href="https://www.gatsbyjs.org" target="_blank">Gatsby.js</a> which is a fast modern site generator for React.js</li>
             <li>Studied and learned the eco-system of Gatsby.js which was great fun</li>
           </ul>
           <ul class="description">
-            <li>I built this website for a client to promote his company DocStar which deals in building documentation</li>
+            <li>I modified a pre-built template and built out this website for a client to promote his company Docstar which deals in building documentation</li>
           </ul>
         </div>  
       </div>
@@ -200,31 +318,95 @@
       </div>
     </section>
 
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://danielgibsonjs.github.io/css-landing-page-2/" target="_blank">Project tracking landing page</a></h4>
+        <a href="https://github.com/DanielGibsonJS/css-landing-page-2" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonjs.github.io/css-landing-page-2/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/css-landing-page-2/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>More practice using CSS Flexbox, media queries and mobile responsive</li>
+            <li>This was a <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> challenge - They provided the design in .jpg format and I built it!</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/landing-page-2.png" alt="Pricing Component website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://danielgibsonjs.github.io/css-landing-page-3/" target="_blank">Fylo landing page with dark theme</a></h4>
+        <a href="https://github.com/DanielGibsonJS/css-landing-page-3" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonjs.github.io/css-landing-page-3/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/css-landing-page-3/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>Used CSS Flexbox, rem sizing, mobile responsive</li>
+            <li>This was a <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> challenge - They provided the design in .jpg format and I built it!</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/landing-page-3.png" alt="Pricing Component website">
+      </div>
+    </section>
+
+    <section class="project-7 padding website hidden">
+      <div class="wrapper">
+        <h4 id="countries-research"><a href="https://danielgibsonjs.github.io/css-landing-page-7/" target="_blank">Huddle landing page</a></h4>
+        <a href="https://github.com/DanielGibsonJS/css-landing-page-7" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://danielgibsonjs.github.io/css-landing-page-7/" target="_blank"><i class="fas fa-link"></i>https://danielgibsonjs.github.io/css-landing-page-7/</a>
+        <div class="calendar"><i class="far fa-calendar-check"></i><span class="months-ago"></span></div>
+        <div class="project-list-wrapper">
+          <ul class="tech-used">
+            <li>CSS Flexbox practice</li>
+            <li>This was a <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> challenge - They provided the design in .jpg format and I built it!</li>
+          </ul>
+          <!-- <ul class="description">
+            <li>text</li>
+          </ul> -->
+        </div>  
+      </div>
+      <div class="project-page-img-wrapper wrapper-wide">
+        <img src="./images/projects/websites/landing-page-7.png" alt="Pricing Component website">
+      </div>
+    </section>
+
     <section class="contact wrapper padding" id="contact">
-        <h2>Contact:</h2>
-        <ul class="links">
-          <li>
-            <a href="tel:02102402186"><i class="fas fa-phone-square-alt"></i> 021 024 02186</a>
-          </li>
-          <li>
-            <a href="mailto:danielgibson.js@gmail.com"><i class="fas fa-at"></i>danielgibson.js@gmail.com</a>
-          </li>
-          <li>
-            <a href="https://www.google.co.nz/maps/place/Auckland/@-36.8617012,174.3037026,9z/data=!3m1!4b1!4m5!3m4!1s0x6d0d47fb5a9ce6fb:0x500ef6143a29917!8m2!3d-36.8484597!4d174.7633315" target="_blank"><i class="fas fa-map-marker-alt"></i>  Auckland, New Zealand</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/danielgibsonjs/" target="_blank"><i class="fab fa-linkedin"></i> nz.linkedin.com/in/danielgibsonjs</a>
-          </li> 
-          <li>
-            <a href="https://github.com/danielgibsonjs" target="_blank"><i class="fab fa-github-square"></i> github.com/danielgibsonjs</a>
-          </li>
-          <li>
-            <a href="https://t.me/danielgib" target="_blank"><i class="fab fa-telegram"></i> t.me/danielgib</a>
-          </li> 
-        </ul>
-      </section>
+      <h2>Contact:</h2>
+      <ul class="links">
+        <li>
+          <a href="tel:02102402186"><i class="fas fa-phone-square-alt"></i> 021 024 02186</a>
+        </li>
+        <li>
+          <a href="mailto:danielgibson.js@gmail.com"><i class="fas fa-at"></i>danielgibson.js@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.google.co.nz/maps/place/Auckland/@-36.8617012,174.3037026,9z/data=!3m1!4b1!4m5!3m4!1s0x6d0d47fb5a9ce6fb:0x500ef6143a29917!8m2!3d-36.8484597!4d174.7633315" target="_blank"><i class="fas fa-map-marker-alt"></i>  Auckland, New Zealand</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/danielgibsonjs/" target="_blank"><i class="fab fa-linkedin"></i> nz.linkedin.com/in/danielgibsonjs</a>
+        </li> 
+        <li>
+          <a href="https://github.com/danielgibsonjs" target="_blank"><i class="fab fa-github-square"></i> github.com/danielgibsonjs</a>
+        </li>
+        <li>
+          <a href="https://t.me/danielgibson" target="_blank"><i class="fab fa-telegram"></i> t.me/danielgibson</a>
+        </li> 
+      </ul>
+    </section>
+    <footer><p>&copy; 2020 Daniel Gibson</p></footer>
   </div>
   
-  <footer><p>&copy; 2020 Daniel Gibson</p></footer>
+  <script src="scripts.js"></script>
 </body>
 </html>
