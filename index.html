@@ -52,22 +52,24 @@
       <h2>Recent Projects:</h2>
       <div class="project-detail first">
         <div>
-          <h3><a href="https://danielgibsonjs.github.io/cms-landing-page/" target="_blank">Manage landing page - Bootstrap CSS</a></h3>
-          <a href="https://danielgibsonjs.github.io/cms-landing-page/" class="blue" target="_blank">https://danielgibsonjs.github.io/cms-landing-page/</a>
+          <h3><a href="https://leotreat.co.nz/" target="_blank">Leotreat - Online Shopping Web App</a></h3>
+          <a href="https://leotreat.co.nz/" class="blue" target="_blank">https://leotreat.co.nz/</a>
+          <div class="leotreat-date-homepage" id="leotreat-date"></div>
           <ul>
-            <li>Responsive landing page with testimonial slider. Used Bootstrap CSS framework</li>
-            <li>Matt the founder of <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> featured this build in his recent newsletter which is sent out to 1,200+ developers, saying "Daniel Gibson has taken on the new Manage landing page challenge and done a brilliant job here. The page is fully responsive and looks great!"</li>
+            <li>Co-developed with a senior developer using BitBucket version control and Skype screensharing</li>
+            <li>The senior dev built out the Angular components and I worked on the HTML and SCSS while following a Figma design</li>
           </ul>
-          <a href="/projects.html#manage-website" id="manage-homepage-read-more" class="blue">Read more...</a>
+          <a href="/projects.html#leotreat-app" class="blue">Read more...</a>
         </div>
         <div class="project-img-wrapper">
-          <img src="./images/projects/websites/manage-website.png" alt="Manage Website">
+          <img src="./images/projects/appleo-1.png" alt="Leotreat Website">
         </div>
       </div>
       <div class="project-detail reverse-flex">
         <div>
           <h3><a href="https://app-rock-paper-scissors.netlify.com/" target="_blank">Rock, Paper, Scissors App</a></h3>
           <a href="https://app-rock-paper-scissors.netlify.com/" class="blue" target="_blank">https://app-rock-paper-scissors.netlify.com/</a>
+          <div class="leotreat-date-homepage" id="rock-paper-date"></div>
           <ul>
             <li>Built with vanilla JavaScript, using smooth CSS animations, and LocalStorage to track score</li>
             <li>Classic Rock, Paper, Scissors game using fun animations and transitions with score tracking. Try to get a high score!</li>
@@ -114,10 +116,10 @@
       </div>
     </section>
     <section class="skills" id="skills">
-      <h2>Skills:</h2>
+      <h2>Technical Skills:</h2>
       <div class="matrix-wrapper">
-        <div class="d-flex">
-          <p>HTML5, CSS3</p>
+        <!-- <div class="d-flex">
+          <p></p>
           <div class="d-relative">
             <i class="fas fa-circle"></i>
             <i class="fas fa-circle"></i>
@@ -126,9 +128,9 @@
             <i class="fas fa-circle"></i>
             <span>Expert</span>
           </div>
-        </div>
+        </div> -->
         <div class="d-flex">
-          <p>JavaScript, TypeScript, Vue.js, Sass, Bootstrap, Fetch/axios, Git, Github Desktop, Chrome/Firefox DevTools</p>
+          <p>HTML5, CSS3, JavaScript, Sass</p>
           <div class="d-relative">
             <i class="fas fa-circle"></i>
             <i class="fas fa-circle"></i>
@@ -139,7 +141,7 @@
           </div>
         </div>
         <div class="d-flex">
-          <p>React.js, Node.js, Express.js, Building a REST API & CRUD, Gatsby.js, Postman, Heroku & Netlify's server-less functions</p>
+          <p>React.js, Vue.js, Node.js, Express.js</p>
           <div class="d-relative">
             <i class="fas fa-circle"></i>
             <i class="fas fa-circle"></i>
@@ -173,23 +175,24 @@
         </div>
       </div>
 
-      <!-- <div class="skills-wrapper">
+      <div class="skills-wrapper">
         <div class="padding-right">
           <h3>Fundamentals</h3>
           <ul>
-            <li>Proficiency in JavaScript, Node, React, Vue.js, Express, HTML5, CSS3, Sass, SQL</li>
+            <!-- <li>Completed the <a class="blue" href="https://teamtreehouse.com/" target="_blank">Treehouse</a> Full Stack JavaScript course and built 12 real-world projects each reviewed by industry professionals</li> -->
+            <li>Built more than 25 personal projects and worked on several client projects from mobile-first landing pages to co-developing complex web apps</li>
           </ul>
         </div>
         <div>
-          <h3>Consuming an API</h3>
-          <ul>
-            <li>Experience in using Fetch/Axios to make post/pull requests</li>
-          </ul>
-        </div>
-        <div class="padding-right">
           <h3>Building a REST API & CRUD</h3>
           <ul>
             <li>Experience in building an API, connecting to a database to make queries, get data, insert data, using Postman and MongoDB</li>
+          </ul>
+        </div>
+        <div class="padding-right">
+          <h3>Consuming an API</h3>
+          <ul>
+            <li>Experience in using Fetch/Axios to make post/pull requests</li>
           </ul>
         </div>
         <div>
@@ -201,7 +204,7 @@
         <div class="padding-right">
           <h3>Version Control Systems / DevTools</h3>
           <ul>
-            <li>Confident in using Git, GitHub/Bitbucket/Github desktop</li>
+            <li>Collaborated with other developers using Git, GitHub/Bitbucket/Github desktop</li>
             <li>Ability to use Chrome/Firefox DevTools to manipulate the DOM, perform error testing and debugging</li>
           </ul>
         </div>
@@ -212,9 +215,10 @@
           </ul>
         </div>
       </div>
-    </section> -->
+    </section>
     <section class="contact" id="contact">
       <h2>Contact:</h2>
+      <div class="links-container"></div>
       <ul class="links">
         <li>
           <a href="tel:02102402186"><i class="fas fa-phone-square-alt"></i> <span>021 024 02186</span></a>
@@ -223,7 +227,7 @@
           <a href="mailto:danielgibson.js@gmail.com"><i class="fas fa-at"></i><span>danielgibson.js@gmail.com</span></a>
         </li>
         <li>
-          <a href="https://www.google.co.nz/maps/place/Auckland/@-36.8617012,174.3037026,9z/data=!3m1!4b1!4m5!3m4!1s0x6d0d47fb5a9ce6fb:0x500ef6143a29917!8m2!3d-36.8484597!4d174.7633315" target="_blank"><i class="fas fa-map-marker-alt"></i>  <span>Auckland, New Zealand</span></a>
+          <a href="https://www.google.co.nz/maps/place/Auckland/@-36.8617012,174.3037026,9z/data=!3m1!4b1!4m5!3m4!1s0x6d0d47fb5a9ce6fb:0x500ef6143a29917!8m2!3d-36.8484597!4d174.7633315" target="_blank"><i class="fas fa-map-marker-alt"></i>  <span>Auckland City, New Zealand</span></a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/danielgibsonjs/" target="_blank"><i class="fab fa-linkedin"></i> <span>nz.linkedin.com/in/danielgibsonjs</span></a>
@@ -238,6 +242,6 @@
     </section>
     <footer><p>&copy; 2020 Daniel Gibson</p></footer>
   </div>
-  <script src="scripts.js"></script>
+  <script src="scriptsHomepage.js"></script>
 </body>
 </html>

@@ -3,13 +3,12 @@ const websiteLink = document.getElementById("website-link");
 const webAppArray = document.getElementsByClassName("web-app");
 const websiteArray = document.getElementsByClassName("website");
 
-const homepageReadMoreManage = document.getElementsByClassName("manage-homepage-read-more")[0];
-
 // Project finish dates
 const monthsAgoSpanArray = document.getElementsByClassName('months-ago');
 
 const todayDate = new Date();
 
+const appLeotreat = new Date("02/20/2020");
 const appRockPaperScissors = new Date("02/04/2020");
 const appUrlShortener = new Date("12/04/2019");
 const appCountriesResearch = new Date("10/18/2019");
@@ -28,7 +27,7 @@ const webProject = new Date("08/01/2019");
 const webFylo = new Date("08/01/2019");
 const webHuddle = new Date("08/01/2019");
 
-const finishDateArray = [appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
+const finishDateArray = [appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
 
 let howLongAgo = 0;
 
@@ -48,21 +47,6 @@ webAppsLink.addEventListener("click", () => {
 }, false);
 
 websiteLink.addEventListener("click", () => {
-  if (!websiteLink.classList.contains("active")) {
-    websiteLink.classList.add("active");
-    webAppsLink.classList.remove("active");
-  }
-  if (websiteArray[0].classList.contains("hidden")) {
-    for (let i=0; i < websiteArray.length; i++) {
-      websiteArray[i].classList.remove("hidden");
-    }
-    for (let i=0; i < webAppArray.length; i++) {
-      webAppArray[i].classList.add("hidden");
-    }
-  }
-}, false);
-
-homepageReadMoreManage.addEventListener("click", () => {
   if (!websiteLink.classList.contains("active")) {
     websiteLink.classList.add("active");
     webAppsLink.classList.remove("active");
