@@ -17,6 +17,7 @@ const appCourseDirectory = new Date("04/30/2019");
 const appBoardGame = new Date("04/16/2019");
 const appPhraseHunter = new Date("01/30/2019");
 
+const webLandingPage = new Date("07/24/2020");
 const webEasybank = new Date("06/10/2020");
 const webManage = new Date("02/27/2020");
 const webPricing = new Date("01/05/2020");
@@ -28,7 +29,7 @@ const webProject = new Date("08/01/2019");
 const webFylo = new Date("08/01/2019");
 const webHuddle = new Date("08/01/2019");
 
-const finishDateArray = [appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
+const finishDateArray = [appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
 
 let howLongAgo = 0;
 
