@@ -8,6 +8,7 @@ const monthsAgoSpanArray = document.getElementsByClassName('months-ago');
 
 const todayDate = new Date();
 
+const appDesktopTrace = new Date("08/21/2020");
 const appLeotreat = new Date("02/20/2020");
 const appRockPaperScissors = new Date("02/04/2020");
 const appUrlShortener = new Date("12/04/2019");
@@ -29,7 +30,7 @@ const webProject = new Date("08/01/2019");
 const webFylo = new Date("08/01/2019");
 const webHuddle = new Date("08/01/2019");
 
-const finishDateArray = [appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
+const finishDateArray = [appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
 
 let howLongAgo = 0;
 
