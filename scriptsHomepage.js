@@ -1,4 +1,20 @@
 const todayDate = new Date();
+
+const appDesktopTrace = new Date("08/21/2020");
+
+const desktopHomepage = document.getElementById("desktop-date");
+let deskHowLongAgo = 0;
+
+deskHowLongAgo = Math.floor((todayDate.getTime() - appDesktopTrace.getTime()) / (1000 * 3600 * 24) / 30);
+if (deskHowLongAgo === 0) {
+  desktopHomepage.innerHTML = "Less than a month ago"
+} else if (deskHowLongAgo === 1) {
+  desktopHomepage.innerHTML = "1 month ago"
+} else {
+  desktopHomepage.innerHTML = `${deskHowLongAgo} months ago`
+}
+
+
 const appLeotreat = new Date("02/20/2020");
 
 const leoTreatHomepage = document.getElementById("leotreat-date");
@@ -11,20 +27,5 @@ if (leotreatHowLongAgo === 0) {
   leoTreatHomepage.innerHTML = "1 month ago"
 } else {
   leoTreatHomepage.innerHTML = `${leotreatHowLongAgo} months ago`
-}
-
-
-const appRockPaperScissors = new Date("02/04/2020");
-
-const rockHomepage = document.getElementById("rock-paper-date");
-let rockHowLongAgo = 0;
-
-rockHowLongAgo = Math.floor((todayDate.getTime() - appRockPaperScissors.getTime()) / (1000 * 3600 * 24) / 30);
-if (rockHowLongAgo === 0) {
-  rockHomepage.innerHTML = "Less than a month ago"
-} else if (rockHowLongAgo === 1) {
-  rockHomepage.innerHTML = "1 month ago"
-} else {
-  rockHomepage.innerHTML = `${rockHowLongAgo} months ago`
 }
 
