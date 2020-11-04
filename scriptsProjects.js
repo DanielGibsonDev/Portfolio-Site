@@ -19,6 +19,7 @@ const appCourseDirectory = new Date("04/30/2019");
 const appBoardGame = new Date("04/16/2019");
 const appPhraseHunter = new Date("01/30/2019");
 
+const webTestimonial = new Date("11/05/2020");
 const webLandingPage = new Date("07/24/2020");
 const webEasybank = new Date("06/10/2020");
 const webManage = new Date("02/27/2020");
@@ -31,7 +32,7 @@ const webProject = new Date("08/01/2019");
 const webFylo = new Date("08/01/2019");
 const webHuddle = new Date("08/01/2019");
 
-const finishDateArray = [appIPAddressTracker, appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
+const finishDateArray = [appIPAddressTracker, appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webTestimonial, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
 
 let howLongAgo = 0;
 
@@ -41,10 +42,10 @@ webAppsLink.addEventListener("click", () => {
     websiteLink.classList.remove("active");
   }
   if (webAppArray[0].classList.contains("hidden")) {
-    for (i=0; i < webAppArray.length; i++) {
+    for (i = 0; i < webAppArray.length; i++) {
       webAppArray[i].classList.remove("hidden");
     }
-    for (i=0; i < websiteArray.length; i++) {
+    for (i = 0; i < websiteArray.length; i++) {
       websiteArray[i].classList.add("hidden");
     }
   }
@@ -56,10 +57,10 @@ websiteLink.addEventListener("click", () => {
     webAppsLink.classList.remove("active");
   }
   if (websiteArray[0].classList.contains("hidden")) {
-    for (let i=0; i < websiteArray.length; i++) {
+    for (let i = 0; i < websiteArray.length; i++) {
       websiteArray[i].classList.remove("hidden");
     }
-    for (let i=0; i < webAppArray.length; i++) {
+    for (let i = 0; i < webAppArray.length; i++) {
       webAppArray[i].classList.add("hidden");
     }
   }
@@ -67,7 +68,7 @@ websiteLink.addEventListener("click", () => {
 
 
 calculateMonthsAgo = () => {
-  for (i=0; i < monthsAgoSpanArray.length; i++) {
+  for (i = 0; i < monthsAgoSpanArray.length; i++) {
     howLongAgo = Math.floor((todayDate.getTime() - finishDateArray[i].getTime()) / (1000 * 3600 * 24) / 30);
     if (howLongAgo === 0) {
       monthsAgoSpanArray[i].innerHTML = "Less than a month ago"
