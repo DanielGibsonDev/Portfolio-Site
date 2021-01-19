@@ -20,6 +20,7 @@ const appCourseDirectory = new Date("04/30/2019");
 const appBoardGame = new Date("04/16/2019");
 const appPhraseHunter = new Date("01/30/2019");
 
+const loopstudiosLandingPage = new Date("01/20/2021")
 const webTestimonial = new Date("11/05/2020");
 const webLandingPage = new Date("07/24/2020");
 const webEasybank = new Date("06/10/2020");
@@ -33,7 +34,7 @@ const webProject = new Date("08/01/2019");
 const webFylo = new Date("08/01/2019");
 const webHuddle = new Date("08/01/2019");
 
-const finishDateArray = [appTodoTask, appIPAddressTracker, appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, webTestimonial, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
+const finishDateArray = [appTodoTask, appIPAddressTracker, appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, loopstudiosLandingPage, webTestimonial, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
 
 let howLongAgo = 0;
 
