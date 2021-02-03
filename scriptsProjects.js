@@ -8,6 +8,7 @@ const monthsAgoSpanArray = document.getElementsByClassName('months-ago');
 
 const todayDate = new Date();
 
+const appEventsTracker = new Date("02/03/2021");
 const appTodoTask = new Date("12/07/2020");
 const appIPAddressTracker = new Date("09/22/2020");
 const appDesktopTrace = new Date("08/21/2020");
@@ -34,7 +35,7 @@ const webProject = new Date("08/01/2019");
 const webFylo = new Date("08/01/2019");
 const webHuddle = new Date("08/01/2019");
 
-const finishDateArray = [appTodoTask, appIPAddressTracker, appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, loopstudiosLandingPage, webTestimonial, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
+const finishDateArray = [appEventsTracker, appTodoTask, appIPAddressTracker, appDesktopTrace, appLeotreat, appRockPaperScissors, appUrlShortener, appCountriesResearch, appCourses, appCourseDirectory, appBoardGame, appPhraseHunter, loopstudiosLandingPage, webTestimonial, webLandingPage, webEasybank, webManage, webPricing, webSnowball, webClipboard, webPing, webDocstar, webProject, webFylo, webHuddle]
 
 let howLongAgo = 0;
 
@@ -76,6 +77,8 @@ calculateMonthsAgo = () => {
       monthsAgoSpanArray[i].innerHTML = "Less than a month ago"
     } else if (howLongAgo === 1) {
       monthsAgoSpanArray[i].innerHTML = "1 month ago"
+    } else if (howLongAgo > 12) {
+      monthsAgoSpanArray[i].innerHTML = `Over a year ago`
     } else {
       monthsAgoSpanArray[i].innerHTML = `${howLongAgo} months ago`
     }
